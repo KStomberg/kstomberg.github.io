@@ -34,6 +34,10 @@ body {
     justify-content: center;
 }
 
+.link {
+    text-decoration: none;
+}
+
 #profilePicture {
     display: flex;
     width: 150px;
