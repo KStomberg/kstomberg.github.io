@@ -12,21 +12,42 @@ body {
     background-repeat: no-repeat;
 }
 
-#main {
+.main {
     color: white;
     background-color: darkslategrey;
     height: auto;
     width: 40%;
     position: absolute;
-    margin-left: 50%;
-    margin-top: 50%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+#header {
     overflow: auto;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    border: 1px solid white;
-    border-radius: 25px;
+}
+
+#profilePicture {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("./images/Kieran-Stomberg.jpg");
+    background-size: cover;
+    /* if you need a good laugh:
+    background-size: auto; */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: center;
+    
 }
 
 #linkedIn {
