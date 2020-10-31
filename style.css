@@ -1,0 +1,38 @@
+
+/* Photo by Alex Andrews from Pexels 
+URL OF PHOTOGRAPHER: https://www.pexels.com/@alex-andrews-271121?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+URL OF IMAGE: https://www.pexels.com/photo/photo-of-deep-sky-object-816608/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+*/
+
+
+body {
+    background-image: url("./images/pexels-alex-andrews-816608.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main {
+    color: white;
+    background-color: darkslategrey;
+    height: auto;
+    width: 40%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+#linkedIn {
+    margin-right: 25px;
+}
+
+#gitHub {
+    margin-left: 25px;
+}
