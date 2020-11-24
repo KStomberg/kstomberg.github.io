@@ -17,7 +17,7 @@ body {
     color: white;
     background-color: darkslategrey;
     height: auto;
-    width: 40%;
+    width: 80%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -37,6 +37,11 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+.repo {
+    overflow: auto;
+    text-align: center;
 }
 
 #profilePicture {
